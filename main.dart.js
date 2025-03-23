@@ -41412,7 +41412,7 @@ $1(a){var s=a.b,r=s==null,q=r?a.a:s
 if(B.b.n(this.b,q))return A.cN(null,t.z)
 q=a.a
 if(r)s=q
-return this.a.zn("https://www.gstatic.com/firebasejs/"+this.c+"/firebase-"+q+".js","firebase_"+s)},
+return this.a.zn("firebase-"+q+".js","firebase_"+s)},
 $S:153}
 A.a2L.prototype={
 $0(){return self.firebase_core.SDK_VERSION},
