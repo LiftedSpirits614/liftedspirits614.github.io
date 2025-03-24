@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <base href="https://liftedspirits614.github.io/getliftedweb/"/>
+    <base href="/" />
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
@@ -18,35 +18,6 @@
 
     <title>liftedspirits</title>
     <link rel="manifest" href="manifest.json" />
-
-    <!-- ✅ Firebase SDKs (Use CDN Instead of Importing in Script) -->
-    <!-- Firebase SDKs -->
-    <script src="https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/11.3.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/11.3.1/firebase-analytics.js"></script>
-    <script src="firebase-messaging.js"></script>
-
-    <!-- Initialize Firebase -->
-    <script>
-      const firebaseConfig = {
-        apiKey: "AIzaSyD3t6ocyKtG1XlQ2oR5Umth9CoHTioBHlk",
-        authDomain: "lifted-spirits-bfd0e.firebaseapp.com",
-        projectId: "lifted-spirits-bfd0e",
-        storageBucket: "lifted-spirits-bfd0e.appspot.com",
-        messagingSenderId: "612331440571",
-        appId: "1:612331440571:web:c6620ead49110faffc1c9e",
-        measurementId: "G-N0FJDDCW4G",
-      };
-
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-
-      const messaging = firebase.messaging();
-      messaging.onBackgroundMessage((message) => {
-        console.log("onBackgroundMessage", message);
-      });
-    </script>
   </head>
   <body>
     <script src="flutter_bootstrap.js" async defer></script>
