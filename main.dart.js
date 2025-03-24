@@ -41318,11 +41318,11 @@ j=A.bm(new A.a2N(a))
 p=k.createPolicy(q,{createScript:A.XU(new A.a2O()),createScriptURL:j})
 o=p.createScriptURL(a)
 n=A.a5f(o,"toString",null,t.X)
-m=p.createScript("            window.ff_trigger_"+b+' = async (callback) => {\n              console.debug("Initializing Firebase '+b+'");\n              callback(await import("'+A.j(n)+'"));\n            };\n          ',null)
+m=p.createScript("            window.ff_trigger_"+b+' = async (callback) => {\n              console.debug("Initializing Firebase '+b+'");\n              \n            };\n          ',null)
 g.text=m
 h.document.head.appendChild(g)}catch(f){l=A.ae(f)
 h=J.cL(l)
-throw A.f(new A.P0(h))}}else{g.text="      window.ff_trigger_"+b+' = async (callback) => {\n        console.debug("Initializing Firebase '+b+'");\n        callback(await import("'+a+'"));\n      };\n    '
+throw A.f(new A.P0(h))}}else{g.text="      window.ff_trigger_"+b+' = async (callback) => {\n        console.debug("Initializing Firebase '+b+'");\n        \n      };\n    '
 h.document.head.appendChild(g)}k=new A.aH($.ar,t.LR)
 A.a5f(t.lZ.a(h),"ff_trigger_"+b,A.bm(new A.a2P(b,new A.bP(k,t.zh))),t.X)
 s=2
@@ -41412,7 +41412,7 @@ $1(a){var s=a.b,r=s==null,q=r?a.a:s
 if(B.b.n(this.b,q))return A.cN(null,t.z)
 q=a.a
 if(r)s=q
-return this.a.zn("firebase-"+q+".js","firebase_"+s)},
+return this.a.zn("https://www.gstatic.com/firebasejs/"+this.c+"/firebase-"+q+".js","firebase_"+s)},
 $S:153}
 A.a2L.prototype={
 $0(){return self.firebase_core.SDK_VERSION},
