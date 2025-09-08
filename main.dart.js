@@ -594,7 +594,7 @@ b_V(a){var s=0,r=A.H(t.Lk),q,p=2,o=[],n,m,l,k
 var $async$yu=A.C(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.J(A.dk(self.window.fetch(a + '?v=1.1.52'),t.e),$async$yu)
+return A.J(A.dk(self.window.fetch(a + '?v=1.1.63'),t.e),$async$yu)
 case 7:n=c
 q=new A.MB(a,n)
 s=1
